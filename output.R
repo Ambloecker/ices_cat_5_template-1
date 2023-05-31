@@ -28,7 +28,7 @@ sag_info <-
   )
 sag_info$RecruitmentAge <- 0
 
-sag_fishdata <-
+sag_fishdata <-  #creates table
   stockFishdata(Year = summary$Year, Catches = summary$Total)
 
 sag_upload <- createSAGxml(sag_info, sag_fishdata)

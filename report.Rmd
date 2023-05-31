@@ -10,9 +10,9 @@ output:
 ---
 
 ```{r libraries, include=FALSE}
-library(captioner)
+library(captioner) #for figure legends
 library(knitr)
-library(pander)
+library(pander) #for making tables
 ```
 
 ```{r chunk_setup, include=FALSE}

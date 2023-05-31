@@ -20,5 +20,6 @@ mkdir("report")
 # combine into a word document
 render("report.Rmd",
        output_file = "report.docx",
-       encoding = "UTF-8")
+       encoding = "UTF-8",
+       output_dir = "report")#last line added to create new folder, then SourceALL()
 cp("report.docx", "report", move = TRUE)
